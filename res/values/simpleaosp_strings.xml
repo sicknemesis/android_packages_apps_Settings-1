@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--Sicki version-->
+    <string name="sicki_version">Sicki SimpleAOSP Version</string>
+    <string name="sicki_version_default">0.9</string>
+
+    <!--Saber version-->
+    <string name="sm_android">Rom Toolchain Version</string>
+    <string name="sm_android_default">Unknown</string>
+    <string name="sm_arm">Kernel Toolchain Version</string>
+    <string name="sm_arm_default">Unknown</string>
+    
     <!-- About phone screen, build date of ROM -->
-    <string name="build_date">SimpleAOSP build date</string>
+    <string name="build_date">SimpleAOSP Build Date</string>
     <string name="build_date_default">2012-01-01-0000</string>
 
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
