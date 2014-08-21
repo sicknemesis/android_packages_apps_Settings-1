@@ -291,6 +291,14 @@
             android:title="@string/kill_app_longpress_back"
             android:summary="@string/kill_app_longpress_back_summary"/>
 
+	<PreferenceScreen android:key="testing"
+            android:title="@string/testing"
+            android:summary="@string/testing">
+	<intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.settings"
+                    android:targetClass="com.android.settings.TestingSettings" />
+	</PreferenceScreen>
+
      </PreferenceCategory>
 
 </PreferenceScreen>
